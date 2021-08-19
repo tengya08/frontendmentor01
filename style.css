@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 23.4375rem;
+    height: 41.875rem;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 21rem;
+}
+
+.hero img{
+    width: 21rem;
+}
+.hero{
+    width: 23.4375em;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+}
+
+.text{
+    text-align: center;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+h3 {
+    color: hsl(223, 47%, 23%);
+}
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.text p {
+    text-align: center;
+    font-size: larger;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin: 0.5rem 0 1.5rem;
+}
+
+.annual-plan img {
+    width: 50px;
+}
+.annual-plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+a:hover {
+    text-decoration: none;
+    color: hsl(253, 71%, 51%);
+}
+
+.annual-text{
+    padding: 0 2.3rem 0 0;
+    margin: 0;
+    line-height: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.proceed-payment {
+    margin-top: 2rem;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.proceed-payment:hover{
+    background-color: hsl(253, 71%, 51%);
+    box-shadow: -3px 9px 15px hsl(224, 23%, 55%);
+    transform: scale(99%);
+    transition: 0.3s;
+}
+
+.proceed-payment p {
+    color: hsl(225, 100%, 98%);
+    padding: 0.01rem 1rem;
+}
+
+.cancel-order {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cancel-order p:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+@media (min-width: 70rem){
+    .container{
+        width: 90rem;
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-image: no-repeat;
+    }
+}
